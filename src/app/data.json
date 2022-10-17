@@ -1,0 +1,233 @@
+[
+    {
+      "id": "1",
+      "name": "Goodbye",
+      "trailer": "https://youtu.be/n5gICDMQOcA",
+      "image": "../../../assets/goodbye.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "2",
+      "name": "PS-1",
+      "trailer": "https://youtu.be/-xvUWCszQPM",
+      "image": "../../../assets/ps.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "3",
+      "name": "Brahmastra",
+      "trailer": "https://youtu.be/V5jVntRVl-0",
+      "image": "../../../assets/brhm.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "4",
+      "name": "Vikram Vedha",
+      "trailer": "https://youtu.be/hpwnlr-ZHB0",
+      "image": "../../../assets/vv.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "5",
+      "name": "Doctor G",
+      "trailer": "https://youtu.be/XJrRrMCEmp8",
+      "image": "../../../assets/doctorg.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "6",
+      "name": "GodFather",
+      "trailer": "https://youtu.be/rUyrekdj5xs",
+      "image": "../../../assets/doctorg.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "7",
+      "name": "The Ghost",
+      "trailer": "https://youtu.be/o6TOax_-A6w",
+      "image": "../../../assets/ghost.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "Hindi"
+    },
+    {
+      "id": "8",
+      "name": "Minions",
+      "trailer": "https://youtu.be/gPygk2pgvHk",
+      "image": "../../../assets/minions.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "English"
+    },
+    {
+      "id": "9",
+      "name": "Black Adam",
+      "trailer": "https://youtu.be/X0tOpBuYasI",
+      "image": "../../../assets/blackadam.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "English"
+    },
+    {
+      "id": "10",
+      "name": "Ticket to Paradise",
+      "trailer": "https://youtu.be/hkP4tVTdsz8",
+      "image": "../../../assets/paradise.avif",
+      "total": 42,
+      "morningavailable": 10,
+      "eveningavailable": 0,
+      "nightavailable": 10,
+      "language": "English"
+    },
+    {
+        "id": "11",
+        "name": "Top Gun-Maverick",
+        "trailer": "https://youtu.be/giXco2jaZ_4",
+        "image": "../../../assets/topgm.avif",
+        "total": 42,
+        "morningavailable": 10,
+        "eveningavailable": 0,
+        "nightavailable": 10,
+        "language": "English"
+      },
+      {
+          "id": "12",
+          "name": "Top Gun-Maverick",
+          "trailer": "https://youtu.be/giXco2jaZ_4",
+          "image": "../../../assets/topgm.avif",
+          "total": 42,
+          "morningavailable": 10,
+          "eveningavailable": 0,
+          "nightavailable": 10,
+          "language": "English"
+        },
+        {
+            "id": "13",
+            "name": "Superpets",
+            "trailer": "https://youtu.be/1jkw2JPCl18",
+            "image": "../../../assets/superpets.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "English"
+        },
+        {
+            "id": "14",
+            "name": "Halloween Ends",
+            "trailer": "https://youtu.be/s0vtbxLa-N8",
+            "image": "../../../assets/halloween.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "English"
+        },
+        {
+            "id": "15",
+            "name": "GodFather",
+            "trailer": "https://youtu.be/9GPaj0OW-No",
+            "image": "../../../assets/GodFather.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Telugu"
+        },
+        {
+            "id": "16",
+            "name": "Swathimuthyam",
+            "trailer": "https://youtu.be/mPXDlOR36u8",
+            "image": "../../../assets/Swathimuthyam.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Telugu"
+        },
+        {
+            "id": "17",
+            "name": "Neetho",
+            "trailer": "https://youtu.be/f1T49WXuTyQ",
+            "image": "../../../assets/Neetho.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Telugu"
+        },
+        {
+            "id": "18",
+            "name": "Prince",
+            "trailer": "https://youtu.be/KHUZsWSwxWM",
+            "image": "../../../assets/Prince.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Telugu"
+        },
+        {
+            "id": "19",
+            "name": "Ra Raju",
+            "trailer": "https://youtu.be/1QlsW0M7uno",
+            "image": "../../../assets/Ra Raju.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Telugu"
+        },
+        {
+            "id": "20",
+            "name": "One Piece Film:Red",
+            "trailer": "https://youtu.be/89JWRYEIG-s",
+            "image": "../../../assets/red.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Japanese"
+        },
+        {
+            "id": "21",
+            "name": "Last Film Show",
+            "trailer": "https://youtu.be/qUDMzloKBxw",
+            "image": "../../../assets/lastfilmshow.avif",
+            "total": 42,
+            "morningavailable": 10,
+            "eveningavailable": 0,
+            "nightavailable": 10,
+            "language": "Japanese"
+        }
+  ]

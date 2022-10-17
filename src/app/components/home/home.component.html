@@ -1,0 +1,33 @@
+
+<app-navbar></app-navbar>
+
+<div *ngIf="movies.length===1">
+  <app-loading></app-loading>
+</div>
+
+  <div *ngIf="movies.length>0" class="parent">
+    <div class="card" *ngFor="let movie of movies">
+      <a href={{movie.trailer}} target="_blank">
+      <div class="img-card">
+        <div class="img">
+          <img src={{movie.image}} alt="">
+        </div>
+      </div>
+    </a>
+      <div class="content-card">
+        <div class="movie-name">
+          <div class="movie-name-text">
+            {{movie.name}}
+          </div>
+          <div class="language">
+            <div class="language-text">{{movie.language}}</div>
+          </div>
+        </div>
+          <button (click)="buttonclick(movie)">
+            <div class="button bg-danger">
+              <span style="font-weight: 500; font-size: 16px; color: rgb(255, 255, 255);">Book Now</span>
+            </div>
+          </button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,70 @@
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
+  <div class="form">
+    <h1 class="bg-danger">Enter Details</h1>
+    <form>
+      <div class="txt_field">
+        <label>Name</label>
+        <input placeholder="Enter Name" (keyup)="onNameInput($event)" type="text">
+      </div>
+      <div class="txt_field">
+        <label>City</label>
+        <input placeholder="Enter City" (keyup)="onCityInput($event)" type="text">
+      </div>
+      <div class="txt_field">
+        <label>Showtime</label>
+        <input placeholder="Enter Showtime: Morning or Evening or Night" (keyup)="onshowtimeInput($event)" type="text">
+      </div>
+      
+      <button type="Submit" class="btn bg-danger" (click)="closePopup()">
+        <span style="font-weight: 500; font-size: 16px; color: rgb(255, 255, 255);">Submit</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+<div *ngIf="moviesdata.length===1">
+  <app-loading></app-loading>
+</div>
+
+<div class="head bg-danger" style="display: grid;justify-content: center;align-items: center;">
+  <h1 id="moviename">{{chosenmoviedata.name}}</h1>
+  <h3 id="remainingseats" > <span *ngIf="showremainingseats===1;"> Remaining Seats: {{remainingseats}}</span></h3>
+</div>
+
+<div class="body" (mousemove)="assignselectedseats()">
+
+  <div class="movie-container">
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Available</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="screen">
+      <p class="screen-text">Screen</p>
+    </div>
+
+    <div class="container" *ngFor="let row of rows">
+      <div class="row" id="{{row}}">
+        <div *ngFor="let seat of seats">
+          <div class="seat" id="{{row}}{{seat}}" (click)="buttonClicked(row,seat,$event)"></div>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn bg-danger" (click)="CheckOut()">
+      <span style="font-weight: 500; font-size: 16px; color: rgb(255, 255, 255);">Check Out</span>
+    </button>
+  </div>

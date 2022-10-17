@@ -1,0 +1,144 @@
+
+button{
+  padding: 0px;
+  border: 0px solid #d9534f;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 8px;
+  width: 92.5%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button{
+  letter-spacing: 0.2px;
+  padding: 1px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div{
+  background: transparent;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.parent{
+  justify-content: center;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(5, calc((65% - 96px) / 4));
+  margin-top: 5vh;
+  background-color:floralwhite;
+}
+
+.card
+{
+  position: relative;
+  height: 100%;
+}
+
+.img-card{
+  display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.3s ease-in 0s, width 0.3s ease-in 0s;
+    width: 100%;
+    height: calc(278.517px);
+    max-height: unset;
+    margin: 0px 0px 16px;
+    border-radius: 8px;
+}
+
+.img{
+  display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+img{
+  
+  object-fit: cover;
+    transition: visibility 0s ease 0s, opacity 0.3s linear 0s;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 10px;
+}
+
+.movie-name{
+  /* display: flex; */
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.movie-name-text{
+  margin: 0px 0px 4px;
+    word-break: break-word;
+    /* color: rgb(0, 0, 0); */
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ratings{
+  display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.star-rating{
+  margin: 0px 0px 4px;
+  word-break: break-word;
+  color: #5A5A5A;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.language{
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.language-text{
+  margin: 0px 0px 4px;
+    word-break: break-word;
+    color:lightslategrey;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
